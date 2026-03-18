@@ -1,0 +1,23 @@
+# binaries
+fred
+dist/
+
+# test files
+*.txt
+!scope.example.txt
+
+# go
+*.test
+*.out
+/vendor/
+
+# debug artifacts
+/tmp/
+__debug_bin*
+
+# editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
