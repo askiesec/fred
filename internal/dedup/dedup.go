@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"fred/internal/params"
+	"github.com/askiesec/fred/internal/params"
 )
 
 var (

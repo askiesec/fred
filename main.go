@@ -12,12 +12,12 @@ import (
 	"strings"
 	"sync"
 
-	"fred/internal/dedup"
-	"fred/internal/detect"
-	"fred/internal/entropy"
-	"fred/internal/output"
-	"fred/internal/params"
-	"fred/internal/scope"
+	"github.com/askiesec/fred/internal/dedup"
+	"github.com/askiesec/fred/internal/detect"
+	"github.com/askiesec/fred/internal/entropy"
+	"github.com/askiesec/fred/internal/output"
+	"github.com/askiesec/fred/internal/params"
+	"github.com/askiesec/fred/internal/scope"
 )
 
 // set by build.sh via -ldflags
