@@ -46,6 +46,10 @@ fred uses a goroutine worker pool and `sync.Map` for lock-free deduplication acr
 ## Install
 
 ```bash
+go install https://github.com/askiesec/fred@latest
+```
+
+```bash
 git clone https://github.com/askiesec/fred
 cd fred
 go build -o fred .
